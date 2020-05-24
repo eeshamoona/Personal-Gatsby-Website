@@ -6,8 +6,8 @@ const BlogPage = () => {
     return (
         <div>
             <Layout>
-            <h1>My Blog</h1>
-            <p>Posts will show up here later on...</p>
+            <h1>Glass and Fire</h1>
+            <p>Podcast Episode coming soon...</p>
             </Layout>
         </div>
     )
