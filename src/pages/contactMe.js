@@ -1,16 +1,15 @@
 import React from "react"
 
-import Footer from "../components/footer"
-import Header from "../components/header"
+import Layout from "../components/layout"
 
 const ContactPage = () => {
     return (
         <div>
-            <Header />
+            <Layout>
             <h1>Contact Me</h1>
             <p>You can contact me at: eeshamoona@gmail.com</p>
             <p>Instagram: <a href = "https://www.instagram.com/eeshamoona/?hl=en"> @eeshamoona </a></p>
-            <Footer />
+            </Layout>       
         </div>
     )
 }
