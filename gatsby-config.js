@@ -31,8 +31,8 @@ module.exports = {
         // GitHub Flavored Markdown mode (default: true)
         gfm: true,
         // Plugins configs
-        plugins: ["gatsby-remark-embed-spotify"]
+        plugins: [`gatsby-remark-embedder`],
       },
     },
-  ]
-}
+  ],
+};
