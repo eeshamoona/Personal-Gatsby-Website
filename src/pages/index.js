@@ -8,11 +8,9 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <div className={indexStyles.container}>
         <h1>Hello There.</h1>
-        <h2>I'm computer science student at University of Illinois at Urbana-Champaign</h2>
+        <h2>I'm a computer science student at University of Illinois at Urbana-Champaign</h2>
         <p> Need a software engineer? <Link to="/contactMe">Contact me.</Link></p>
-      </div>
     </Layout>
   )
 
