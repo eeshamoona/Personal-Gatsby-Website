@@ -42,6 +42,9 @@ html {
     display: none;
   }
   a {
+    text-decoration: none;
+    color: #FF9999;
+    font-weight: bold;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
   }
