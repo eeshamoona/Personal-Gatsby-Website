@@ -13,7 +13,7 @@ const Layout = (props) => {
           color: 'var(--textNormal)',
           transition: 'color 0.2s ease-out, background 0.2s ease-out',
         }}>
-        <DarkMode></DarkMode>
+            <div style = {{float: 'right'}}><DarkMode></DarkMode></div>
             <div className = {layoutStyles.container}>
                 <div className = {layoutStyles.content}>
                 <Header />

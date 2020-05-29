@@ -17,7 +17,7 @@ html {
   
   body.dark {
     -webkit-font-smoothing: antialiased;
-    --bg: rgb(34, 34, 34);
+    --bg: #131217;
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
     --textLink: yellow;
@@ -57,7 +57,7 @@ html {
   }
   a {
     text-decoration: none;
-    color: #FF9999;
+    color: #7e43ab;
     font-weight: bold;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
