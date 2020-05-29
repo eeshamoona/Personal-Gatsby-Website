@@ -11,6 +11,7 @@ module.exports = {
     author: 'Eesha Moona'
   },
   plugins: [
+    'gatsby-plugin-dark-mode',
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',

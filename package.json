@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^2.21.37",
+    "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-sass": "^2.3.2",
     "gatsby-remark-embed-spotify": "^2.1.1",
     "gatsby-remark-embedder": "^2.1.0",
