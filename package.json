@@ -14,18 +14,23 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "acorn": "^7.2.0",
     "gatsby": "^2.21.37",
     "gatsby-plugin-dark-mode": "^1.1.2",
     "gatsby-plugin-sass": "^2.3.2",
     "gatsby-remark-embed-spotify": "^2.1.1",
     "gatsby-remark-embedder": "^2.1.0",
+    "gatsby-source-contentful": "^2.3.12",
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-transformer-remark": "^2.8.13",
     "mdbreact": "^4.26.1",
     "node-sass": "^4.14.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-router-dom": "^5.2.0"
+    "react-refresh": "^0.8.3",
+    "react-router-dom": "^5.2.0",
+    "typescript": "^3.9.3"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",

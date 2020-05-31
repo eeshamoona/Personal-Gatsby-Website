@@ -1,6 +1,6 @@
 ---
 title: "My Journey Learning Gatsby"
-date: "May 24th, 2020"
+date: "May 22th, 2020"
 ---
 
 I'm learning how to use Gatsby, React, and more to create this website! The whole process is documented on my [GitHub](https://github.com/eeshamoona/gatsby-website). 
