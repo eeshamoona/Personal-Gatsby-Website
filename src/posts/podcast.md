@@ -1,6 +1,6 @@
 ---
 title: "Inspiration For A New Podcast"
-date: "May 24th, 2020"
+date: "May 22th, 2020"
 ---
 
 https://open.spotify.com/episode/50m058MJnfvIEGsIx18oV2?si=LUQfBgx3Q3CIysRZK2m0og
