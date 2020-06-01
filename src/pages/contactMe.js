@@ -1,11 +1,13 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Head from '../components/head'
 
 const ContactPage = () => {
     return (
         <div>
             <Layout>
+            <Head title = "Contact"></Head>
             <h1>Contact Me</h1>
             <p>You can contact me at:  <a href = "mailto:eeshamoona@gmail.com"> eeshamoona@gmail.com </a></p>
             <p>Instagram: <a href = "https://www.instagram.com/eeshamoona/?hl=en"> @eeshamoona </a></p>

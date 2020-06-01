@@ -9,10 +9,11 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata:{
-    title: 'EESHA MOONA',
+    title: 'Eesha Moona',
     author: 'Eesha Moona'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-dark-mode',
     'gatsby-plugin-sass',
     {
