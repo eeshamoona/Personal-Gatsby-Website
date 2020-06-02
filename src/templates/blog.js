@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
-
+import Comments from '../components/comment'
 
 export const query = graphql`
     query ($slug: String!) {
@@ -23,6 +23,7 @@ const Blog = (props) => {
             <p>{props.data.markdownRemark.frontmatter.date}</p>
             <div dangerouslySetInnerHTML={{__html: props.data.markdownRemark.html}}>
             </div>
+            <Comments />
         </Layout>
     )
 }
