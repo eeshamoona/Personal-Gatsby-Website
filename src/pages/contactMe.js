@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Head from '../components/head'
+import './contactMe.scss'
 
 const ContactPage = () => {
     return (
@@ -12,7 +13,9 @@ const ContactPage = () => {
             <p>You can contact me at:  <a href = "mailto:eeshamoona@gmail.com"> eeshamoona@gmail.com </a></p>
             <p>Instagram: <a href = "https://www.instagram.com/eeshamoona/?hl=en"> @eeshamoona </a></p>
             <p>LinkedIn: <a href = "https://www.linkedin.com/in/eesha-moona-264b111a6/"> eesha-moona </a></p>
+            <div class="flex-container">
             <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+                <input type="hidden" name="bot-field" />
                 <label> Name 
                     <input type="text" name="name" id="name" />
                     </label>
@@ -28,8 +31,8 @@ const ContactPage = () => {
                 </label>
                 <button type="submit">Send</button>
                 <input type="reset" value="Clear" />                
-                <input type="hidden" name="bot-field" />
                 </form>
+                </div>
             </Layout>       
         </div>
     )
