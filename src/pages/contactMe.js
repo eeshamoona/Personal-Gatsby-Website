@@ -14,8 +14,9 @@ const ContactPage = () => {
             <p>Instagram: <a href = "https://www.instagram.com/eeshamoona/?hl=en"> @eeshamoona </a></p>
             <p>LinkedIn: <a href = "https://www.linkedin.com/in/eesha-moona-264b111a6/"> eesha-moona </a></p>
             <div class="flex-container">
-            <form method="post" netlify-honeypot="bot-field" data-netlify="true">
-                <input type="hidden" name="bot-field" />
+                <h1>CONTACT ME!</h1>
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="contact-form" value="contact" />
                 <label> Name 
                     <input type="text" name="name" id="name" />
                     </label>
@@ -32,7 +33,7 @@ const ContactPage = () => {
                 <button type="submit">Send</button>
                 <input type="reset" value="Clear" />                
                 </form>
-                </div>
+            </div>
             </Layout>       
         </div>
     )
