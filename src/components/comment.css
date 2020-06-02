@@ -1,3 +1,55 @@
-button {
-    color: purple;
+.commento-root .commento-submit-button {
+    float: right;
+    background: #7e43ab;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.commento-root .commento-login-box-container .commento-login-box .commento-forgot-link, .commento-root .commento-login-box-container .commento-login-box .commento-login-link {
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: none;
+    color: #7e43ab;
+}
+.commento-root .commento-login-box-container .commento-login-box .commento-email-container .commento-email .commento-email-button {
+    height: 40px;
+    min-width: 110px;
+    float: right;
+    background: #fff;
+    border: none;
+    outline: 0;
+    padding: 0 10px;
+    border-left: 1px solid #f1f3f5;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #7e43ab;
+    cursor: pointer;
+    transition: all .2s;
+    width: unset;
+}
+.commento-root .commento-login-box-container .commento-login-box .commento-email-container .commento-email .commento-email-button {
+    height: 40px;
+    min-width: 110px;
+    float: right;
+    background: #fff;
+    border: none;
+    outline: 0;
+    padding: 0 10px;
+    border-left: 1px solid #f1f3f5;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #7e43ab;
+    cursor: pointer;
+    transition: all .2s;
+    width: unset;
+}
+.commento-root input[type=text], .commento-root textarea {
+    background: #f4f4f4;
+    border: 1px solid rgba(50,50,93,.1);
+    border-radius: 3px;
+    color: #525f7f;
 }
