@@ -13,25 +13,17 @@ const ContactPage = () => {
             <p>You can contact me at:  <a href = "mailto:eeshamoona@gmail.com"> eeshamoona@gmail.com </a></p>
             <p>Instagram: <a href = "https://www.instagram.com/eeshamoona/?hl=en"> @eeshamoona </a></p>
             <p>LinkedIn: <a href = "https://www.linkedin.com/in/eesha-moona-264b111a6/"> eesha-moona </a></p>
-            <div class="flex-container">
-                <h1>CONTACT ME!</h1>
+            <div>
                 <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="contact-form" value="contact" />
-                <label> Name 
-                    <input type="text" name="name" id="name" />
-                    </label>
-                <label> Email 
-                    <input type="email" name="email" id="email" />
-                    </label>
-                <label> Subject
-                    <input type="text" name="subject" id="subject" />
-                    </label>
-                <label>
-                    Message
-                    <textarea name="message" id="message" rows="5" />
-                </label>
-                <button type="submit">Send</button>
-                <input type="reset" value="Clear" />                
+                    <div class="flex-container">
+                    <input class="input" type="text" name="name" id="name" placeholder="Name" />
+                    <input class="input" type="email" name="email" id="email" placeholder="Email"/>
+                    <input class="input" type="text" name="subject" id="subject" placeholder="Subject"/>
+                    <textarea class="input" name="message" id="message" rows="5" placeholder="Message" />
+                    <button class="button" type="submit">Send</button>
+                    {/* <input class ="clear"type="reset" value="Clear" />    */}
+                </div>             
                 </form>
             </div>
             </Layout>       
