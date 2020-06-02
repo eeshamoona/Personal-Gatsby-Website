@@ -17,10 +17,10 @@ const ContactPage = () => {
                 <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="contact-form" value="contact" />
                     <div class="flex-container">
-                    <input class="input" type="text" name="name" id="name" placeholder="Name" />
-                    <input class="input" type="email" name="email" id="email" placeholder="Email"/>
-                    <input class="input" type="text" name="subject" id="subject" placeholder="Subject"/>
-                    <textarea class="input" name="message" id="message" rows="5" placeholder="Message" />
+                    <input class="input" type="text" name="name" id="name" placeholder="NAME*" />
+                    <input class="input" type="email" name="email" id="email" placeholder="EMAIL*"/>
+                    <input class="input" type="text" name="subject" id="subject" placeholder="SUBJECT*"/>
+                    <textarea class="input" name="message" id="message" rows="5" placeholder="MESSAGE*" />
                     <button class="button" type="submit">Send</button>
                     {/* <input class ="clear"type="reset" value="Clear" />    */}
                 </div>             

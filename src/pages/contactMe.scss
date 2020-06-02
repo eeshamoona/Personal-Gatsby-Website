@@ -10,7 +10,6 @@ input[type=text]{
     background: transparent;
     border: 5px solid #999999;
     padding: 0.5rem 0.8rem;
-    text-transform: uppercase;
     color: #7e43ab;
     width: 100%;
     box-sizing: border-box;
@@ -21,7 +20,6 @@ input[type=email]{
     background: transparent;
     border: 5px solid #999999;
     padding: 0.5rem 0.8rem;
-    text-transform: uppercase;
     color: #7e43ab;
     width: 100%;
     box-sizing: border-box;
@@ -32,12 +30,17 @@ textarea{
     background: transparent;
     border: 5px solid #999999;
     padding: 0.5rem 0.8rem;
-    text-transform: uppercase;
     color: #7e43ab;
     width: 100%;
     box-sizing: border-box;
     resize: vertical;   
     font-weight: bold;
+}
+input:not([type="button"]):not([type="submit"]):not([type="reset"]):focus
+, textarea:focus, select:hover, select:focus {
+    border-color: #7e43ab;
+    box-shadow: none;
+    outline: none;
 }
 .button {
     flex: 0 47%;
