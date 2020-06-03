@@ -1,8 +1,13 @@
 import React from "react";
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import DarkMode from "./darkMode"
 
 import headerStyles from './header.module.scss'
 
+import emailLogo from "../images/emailIcon.png"
+import linkedinLogo from "../images/linkedinIcon.png"
+import githubLogo from "../images/githubIcon.png"
+import instagramLogo from "../images/instagramIcon.png"
 const Header = () => {
     const data = useStaticQuery(graphql`
         query {
@@ -33,6 +38,24 @@ const Header = () => {
                     <li>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contactMe"> Contact </Link>
                     </li>
+                    <ul className = {headerStyles.navLogo}>
+                        <li>
+                        <a href = "mailto:eeshamoona@gmail.com" target ="_blank">
+                            <img className={headerStyles.navLogoItem} style={{marginTop: '0.3rem'}}src={emailLogo} alt="Email" ></img></a> 
+                        </li>
+                        <li>
+                        <a href = "https://www.linkedin.com/in/eesha-moona-264b111a6/" target ="_blank">
+                            <img className={headerStyles.navLogoItem} src={linkedinLogo} alt="LinkedIn" ></img></a> 
+                        </li>
+                        <li>
+                        <a href = "https://www.instagram.com/eeshamoona/?hl=en" target ="_blank">
+                            <img className={headerStyles.navLogoItem} src={instagramLogo} alt="Instagram" ></img></a> 
+                        </li>
+                        <li>
+                        <a href = "https://github.com/eeshamoona" target ="_blank">
+                            <img className={headerStyles.navLogoItem} src={githubLogo} alt="Github" ></img></a> 
+                        </li>
+                    </ul>
                 </ul>
             </nav>
         </header>

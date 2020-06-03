@@ -13,8 +13,8 @@
 }
 .nav-item {
     color: #999999;
-    font-size: .9rem;
-    margin-right: 1.3rem;
+    font-size: 1.35rem;
+    margin-right: 2rem;
     text-decoration: none;
 }
 .nav-item:hover{
@@ -23,4 +23,15 @@
 
 .active-nav-item{
     color: #333333;
+}
+.nav-logo {
+    display: flex;
+    list-style-type: none;
+    margin-left: 11rem;
+}
+
+.nav-logo-item {
+    padding: 0 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
