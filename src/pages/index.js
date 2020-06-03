@@ -6,6 +6,7 @@ import Head from '../components/head'
 const IndexPage = () => {
   return (
     <Layout>
+       <link rel="stylesheet" href="/components/comment.css"></link>
         <Head title = "Home"></Head>
         <h1>Hello There.</h1>
         <h2>I'm a computer science student at University of Illinois at Urbana-Champaign</h2>
