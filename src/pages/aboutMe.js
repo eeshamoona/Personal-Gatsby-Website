@@ -13,6 +13,7 @@ const AboutPage = () => {
             <p>Hello There!</p>
             <p>My name is Eesha and I'm a Computer Science Student at University of Illinois at Urbana Champaign</p>
             <p>I am also minoring in Criminology and have an interest in exploring the dynamics between human beings and technology</p>
+            <p>My other interests include public speaking, dancing, and making art projects.</p>
             <p> Need a software engineer? <Link to="/contactMe">Contact me.</Link></p>
             </Layout>
         </div>
