@@ -1,6 +1,6 @@
 ---
 title: "Glass & Fire"
-date: "June 15th, 2020"
+date: "06-15-2020"
 ---
 
 # Glass & Fire: A Podcast

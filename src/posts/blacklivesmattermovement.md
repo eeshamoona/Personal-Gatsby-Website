@@ -1,6 +1,6 @@
 ---
 title: "Support for Black Lives Matter Movement"
-date: "May 31th, 2020"
+date: "05-31-2020"
 ---
 
 ## We are in the midst of history in the making.
