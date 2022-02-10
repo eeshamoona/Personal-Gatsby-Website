@@ -30,7 +30,7 @@
     "gatsby-source-filesystem": "^2.3.8",
     "gatsby-transformer-remark": "^2.8.13",
     "mdbreact": "^4.26.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.12.0",
     "react-custom-share": "^0.4.8",
     "react-dom": "^16.12.0",
